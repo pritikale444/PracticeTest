@@ -23,7 +23,7 @@ public class StepDefination {
          RestAssured.baseURI = "https://open.er-api.com/";
          RestAssured.basePath = "v6/latest/USD";
 
-         //Hit api to verify response
+         //Hit api to verify  response
          response  =  RestAssured.given().headers("Content-Type",  "application/json").get();
 
 }
